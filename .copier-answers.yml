@@ -1,0 +1,24 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 69be80f
+_src_path: https://github.com/catalystcommunity/copier-go-gorm-api
+codeowners_group: engineers
+create_codeowners: true
+create_settings: true
+create_workflows: true
+db_choice: Cockroach
+enable_pull_request_test: true
+full_project_name: github.com/mauza/skoop
+githost: github
+github_private_access: true
+grpc_health_probe: true
+helm_repo: mauza/charts
+image_host: quay
+image_registry_domain: quay.io
+license_type: apache2
+organization: mauza
+release_git_user_email: <engineering@mauza.net>
+release_git_user_name: MauzaEng
+release_method: semver-tags
+repo_description: github.com/mauza/skoop
+short_project_name: skoop
+use_protos: true

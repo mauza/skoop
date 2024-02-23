@@ -1,0 +1,12 @@
+apiVersion: v2
+name: skoop
+description: Helm chart for skoop
+type: application
+version: 0.0.0
+appVersion: "0.0.0"
+
+dependencies:
+  - name: cockroachdb
+    version: ~11.2.1
+    repository: https://charts.cockroachdb.com/
+    condition: appstore.cockroachdb.enabled
